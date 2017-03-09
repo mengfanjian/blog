@@ -1,0 +1,10 @@
+<% include common/header.htm %>
+<h1><%=title%></h1>
+<form method="post" action="/add">
+	<h2>标题</h2>
+	<input type="text" name="title"><br>
+	<h2>内容</h2>
+	<textarea name="content" id="" cols="30" rows="10"></textarea>
+	<input type="submit" value="发表">
+</form>
+<% include common/footer.htm %>
